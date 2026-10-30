@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import './style.css';
 import Billing from './billing';
 
-const API = 'http://localhost:4000/api';
+const API = `${import.meta.env.VITE_API_URL}/api`;
 
 // =====================================================
 // AUTH HELPERS
